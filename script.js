@@ -34,7 +34,7 @@ Petro.createAncientSword = Jovanni.createAncientSword;
 // проверить является ли навык (метод) родовым знанием переданным из поколения в поколение
 // (иначе говоря может быть унаследован не только от отца, но и от деда, прадеда итд.)
 Jovanni.isMyFamilySkill = function(skillName) {
-    return this[skillName] == this.__proto__[skillName];
+    return this[skillName] === this.__proto__[skillName];
 }
 
 // выдать сообщение если навык позаимствован у Jovanni и изобличить лжеца
