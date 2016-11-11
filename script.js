@@ -114,7 +114,7 @@ Jovanni.forceToConfess = function(criminalScumObject) {
 // (все доступные методы можно вызвать но нельзя передать по ссылке)
 function EnchancedJovanny() {
     this.createNewAncientSword = function() {
-        console.log("Do some magic for creating enchanced enchanced ancient magical sword!");
+        console.log("Do some magic for creating enchanced ancient magical sword!");
     };
     this.createEnchancedAncientSword = function() {
         this.createNewAncientSword();
